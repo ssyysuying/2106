@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>mydemo</title>
+    <style type="text/css">
+        body,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        div {
+            width: 400px;
+            margin: 20px auto;
+            border: 3px black solid;
+            padding: 8px;
+        }
+
+        div p {
+            text-indent: 34px;
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload = function () {
+            var oDiv = document.getElementsByTagName("div");
+            /* 点击div，显示innerHTML*/
+            for (var i = 0; i < oDiv.length; i++) {
+                oDiv[i].onclick = function () {
+                    var oP = this.getElementsByTagName("p")[0].innerHTML;
+                    alert(oP);
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        <p><strong>新华网</strong>北京5月29日电(新华社记者)从三聚氰胺到瘦肉精，从染色馒头到毒豆芽，在食品中添加非食用物质和滥用食品添加剂已成为百姓餐桌上突出的"不安全因素"。近期以来，从北京到广东，从浙江到宁夏，一场打击食品非法添加的"风暴"席卷全国
+        </p>
+    </div>
+
+    <div>
+        <p>4月21日，国务院部署严厉打击食品非法添加和滥用食品添加剂专项行动后，广东省高度重视，随即召开了全省电视电话会议。省委领导强调，食品安全是"高压线"，决不能"下不为例"；抓好食品安全要突出一个"<strong>严</strong>"字，做到<strong>严防</strong>、<strong>严查</strong>、<strong>严处</strong>。
+        </p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,
+        ul,
+        a,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        li a {
+            text-decoration: none;
+        }
+
+        p {
+            display: none;
+        }
+
+        #outer {
+            width: 500px;
+            margin: 10px auto;
+        }
+
+        #mouth {
+            width: 400px;
+            margin: 0 auto;
+            background: #d6cdcd;
+            padding: 0 0 10px 10px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        #outer li {
+            width: 68px;
+            height: 68px;
+            border: 1px solid black;
+            margin: 10px 10px 0 0;
+            float: left;
+            padding: 10px;
+            font-size: 25px;
+            font-weight: 800;
+            color: white;
+            cursor: pointer;
+        }
+
+        #mouth li span {
+            display: block;
+        }
+
+        #mouth li .liCurrent {
+            color: red;
+            background: white;
+        }
+
+        #bottom {
+            width: 390px;
+            margin: 0 auto;
+            border: 10px solid #d6cdcd;
+            border-top: 0;
+            font-size: 25px;
+        }
+
+        #bottom p span {
+            font-weight: 800;
+        }
+
+        .pCurrent {
+            display: block;
+            border: 1px solid white;
+            background-color: #867676;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer">
+        <ul id="mouth">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+        </ul>
+        <div id="bottom">
+            <p>1月--元旦</p>
+            <p>2月</p>
+            <p>3月--妇女节</p>
+            <p>4月--清明节</p>
+            <p>5月--劳动节</p>
+            <p>6月--端午节</p>
+            <p>7月--小暑</p>
+            <p>8月--七夕</p>
+            <p>9月--中秋</p>
+            <p>10月--国庆</p>
+            <p>11月--立冬</p>
+            <p>12月--废除奴隶制国</p>
+        </div>
+    </div>
+    <script>
+        window.onload = function(){
+            var oLi = document.getElementById('mouth').getElementsByTagName('li')
+            var
+        }
+    </script>
+</body>
+
+</html>
